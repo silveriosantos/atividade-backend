@@ -12,10 +12,10 @@ public class Produto {
     @GeneratedValue(strategy=GenerationType.AUTO)
 
     private Integer id;
-    private String nome;
-    private String produto;
+    private String nome;    
+    private String descricao;
     private float valor;
-    
+
     public Integer getId() {
         return id;
     }
@@ -28,11 +28,11 @@ public class Produto {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public String getProduto() {
-        return produto;
+    public String getDescricao() {
+        return descricao;
     }
-    public void setProduto(String produto) {
-        this.produto = produto;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
     public float getValor() {
         return valor;
@@ -40,9 +40,5 @@ public class Produto {
     public void setValor(float valor) {
         this.valor = valor;
     }
-
-
-   
-
-
+    
 }
