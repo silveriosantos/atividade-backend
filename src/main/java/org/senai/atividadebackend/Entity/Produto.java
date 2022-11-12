@@ -13,7 +13,7 @@ public class Produto {
 
     private Integer id;
     private String nome;
-    private String produto;
+    private String descricao;
     private float valor;
 
 
@@ -23,22 +23,22 @@ public class Produto {
     public void setId(Integer id) {
         this.id = id;
     }
-    public String getNome() {
+    public String getnome() {
         return nome;
     }
-    public void setNome(String nome) {
+    public void setnome(String nome) {
         this.nome = nome;
     }
     public String getProduto() {
-        return produto;
+        return descricao;
     }
-    public void setProduto(String produto) {
-        this.produto = produto;
+    public void setProduto(String descricao) {
+        this.descricao = descricao;
     }
-    public float getValor() {
+    public float getvalor() {
         return valor;
     }
-    public void setValor(float valor) {
+    public void setvalor(float valor) {
         this.valor = valor;
     }
 
