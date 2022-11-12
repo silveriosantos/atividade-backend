@@ -12,9 +12,9 @@ public class Produto {
     @GeneratedValue(strategy=GenerationType.AUTO)
 
     private Integer id;
-    private String nome;
-    private String produto;
-    private float valor;
+    private String Nome;
+    private String Descricao;
+    private float Valor;
 
 
     public Integer getId() {
@@ -24,22 +24,22 @@ public class Produto {
         this.id = id;
     }
     public String getNome() {
-        return nome;
+        return Nome;
     }
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String Nome) {
+        this.Nome = Nome;
     }
     public String getProduto() {
-        return produto;
+        return Descricao;
     }
-    public void setProduto(String produto) {
-        this.produto = produto;
+    public void setProduto(String Descricao) {
+        this.Descricao = Descricao;
     }
     public float getValor() {
-        return valor;
+        return Valor;
     }
-    public void setValor(float valor) {
-        this.valor = valor;
+    public void setValor(float Valor) {
+        this.Valor = Valor;
     }
 
 
